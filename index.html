@@ -1,0 +1,91 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Survey</title>
+</head>
+<body bgcolor="pink" style="color: darkred" align="center">
+  <h1><u>Your Music Taste</u></h1>
+  <h3>let's gain some knowledge about your taste in music.</h3>
+
+  <form action="mailto:chiragsareen8054@gmail.com" method="POST" enctype="text/plain">
+    <div>
+      <label>Name</label>
+      <input type="text" name="name" placeholder="your name">
+    </div>
+    <br>
+    <div>
+      <label>age</label>
+      <input type="number" name="age" placeholder="your age">
+    </div>
+    <br>
+    <div>
+        <label>email</label>
+            <input type="email" name="email" placeholder="school mail">
+    </div>
+    <br>
+    <div>
+      <label><h3>gender</h3></label>
+    <div>
+      <label>male</label>
+      <input type="radio" name="gender" id="male" value="male">
+   </div>
+   <div>
+      <label>female</label>
+      <input type="radio" name="gender" id="female" value="female">
+   </div>
+  </div>
+  <br>
+  <div>
+    <label><h3>Genre</h3></label>
+  <div>
+
+    <label>Jazz</label>
+     <input type="checkbox" value="jazz">  
+
+    <label>Hip-Hop</label>
+     <input type="checkbox" value="hip_hop">  
+
+    <label>Classical</label>
+     <input type="checkbox" value="classical">
+
+     <label>Rock</label>
+     <input type="checkbox" value="rock">   
+
+  </div>  
+  </div>
+  <br>
+    <h3>Your Favorite Artists (comma-separated):</h3>
+        <input type="text" id="artists" name="artists">
+        <br>
+        <br>
+  
+  <div>
+    <button type="reset">reset</button>
+    <button type="submit">submit</button>
+  </div>
+        
+  
+</body>
+</html>
